@@ -1,0 +1,85 @@
+body{
+    background-color: hsl(120, 73%, 75%);
+    align-items: center;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0); 
+}
+
+header{
+    background-color: forestgreen ;
+     width:100%
+        
+}
+#topic{
+    color: aliceblue;
+    text-align: center;
+    font-family:Comic Sans MS ;
+    font-size: 30px;
+}
+
+#Field1{border: 2px solid #000000; 
+    background: rgb(198, 235, 162);
+
+}
+#pstyle{
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    color: rgb(25, 88, 4);
+    font-weight: bolder;
+    text-shadow: 
+        -1px -1px 0 #fff7f7,  
+        1px -1px 0 #ffe8e8,
+        -1px 1px 0 #f3e6e6,
+        1px 1px 0 #fff8f8;
+}
+
+
+button{
+ background-color: #034205; /* Green */
+ border: none;
+ color: white;
+padding: 15px 32px;
+ text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+}
+
+fieldset {
+    border: 2px solid #000000; 
+    background: rgba(192, 241, 155, 0.404);
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(108, 171, 60) ;
+     width:100%
+
+}
+
+.styled-nav{
+    gap: 50%;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+    .container {
+        padding: 15px;
+    }
+    .submit-btn {
+        padding: 12px;
+        font-size: 16px;
+    }
+}

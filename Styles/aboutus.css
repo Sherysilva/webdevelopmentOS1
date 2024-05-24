@@ -1,0 +1,117 @@
+body{
+    background-color: lightgreen;
+    
+}
+header{
+    background-color: forestgreen ;
+     width:100%
+    
+    
+}
+#topic{
+    color: aliceblue;
+    text-align: center;
+    font-family:Comic Sans MS ;
+    font-size: 30px;
+}
+
+fieldset {
+    border: 2px solid #000000; 
+    background: rgba(240, 244, 237, 0.404);
+}
+
+.inline-text {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: medium;
+}
+
+button{
+    background-color: #034205; /* Green */
+    border: none;
+    color: white;
+   padding: 15px 32px;
+    text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   margin: 4px 2px;
+   cursor: pointer;
+   }
+
+img{
+    width: 300px;
+    height: auto;
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+h1 {
+    text-align: center;
+}
+table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th, td {
+    border: 1px solid #000000;
+    text-align: left;
+    padding: 10px;
+}
+th {
+    background-color: #f2f2f2;
+}
+
+@media (max-width: 600px){
+    body {
+        padding: 10px;
+    }
+    .container {
+        padding: 15px;
+    }
+    .submit-btn {
+        padding: 12px;
+        font-size: 16px;
+    }
+}
+@media (max-width: 600px) {
+    .responsive-table, .responsive-table thead, .responsive-table tbody, .responsive-table th, .responsive-table td, .responsive-table tr {
+        display: block;
+        width: 100%%;
+    }
+
+    .responsive-table thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    .responsive-table tr {
+        border: 1px solid #ccc;
+        margin-bottom: 5px;
+    }
+
+    .responsive-table td {
+        border: none;
+        border-bottom: 1px solid #eee;
+        position: relative;
+        padding-left: 50%;
+        text-align: right;
+    }
+
+    .responsive-table td:before {
+        content: attr(data-label);
+        position: absolute;
+        left: 0;
+        width: 45%;
+        padding-left: 10px;
+        font-weight: bold;
+        white-space: nowrap;
+        text-align: left;
+    }
+}

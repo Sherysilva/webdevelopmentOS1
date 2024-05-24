@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assingment 1</title>
+    <link rel="stylesheet" href="Styles/product.css">
+    <center>
+        <img id="overlay">
+    <img src="images/images for assingment(WDAS)/vegetables 3/logo-removebg-preview.png" height="300" width="300" align="center">
+    </center>
+    <header>   
+        <h1 id="header" align="center">Grocies Supermarket</h1></header>
+<p align="center">
+</head>
+<body>
+    
+    <div class="container">
+        <center><h1>Order Form</h1></center>
+        <fieldset>
+        <form action="/submit_order" method="post">
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" required>
+            </div><br>
+    
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div><br>
+    
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div><br>
+    
+            <div class="form-group">
+                <label for="product">Select Product</label>
+                <select id="product" name="product" required>
+                    <option value="">Choose a product</option>
+                    <option value="Makeup">Make up</option>
+                    <option value="Skincare">Skin care</option>
+                    <option value="Haircare">Hair care</option>
+                    <option value="Vegetables">Vegetables</option>
+                    <option value="Dairy">Dairy products</option>
+                </select>
+            </div><br>
+            <div class="form-group">
+                <label for="quantity">Quantity</label>
+                <input type="number" id="quantity" name="quantity" min="1" required>
+            </div><br>
+    
+            <div class="form-group">
+                <label for="address">Shipping Address</label>
+                <textarea id="address" name="address" rows="4" required></textarea>
+            </div><br>
+    
+            <div class="form-group">
+                <label for="card-number">Credit Card Number</label>
+                <input type="text" id="card-number" name="card_number" required>
+            </div><br>
+            <div class="form-group">
+                <label for="expiry-date">Expiry Date</label>
+                <input type="text" id="expiry-date" name="expiry_date" placeholder="MM/YY" required>
+            </div><br>
+    
+            <div class="form-group">
+                <label for="cvv">CVV</label>
+                <input type="text" id="cvv" name="cvv" required>
+            </div><br>
+    
+            <button type="submit" class="submit-btn">Place Order</button>
+        </form></div></fieldset>
+        <a href="./index.html" text align="center"><button id="btt">⮜ Back to home page</button></a>
+</body>

@@ -1,0 +1,45 @@
+body{
+    background-color: lightgreen;
+    
+}
+header{
+    background-color: forestgreen ;
+     width:100%
+    
+    
+}
+#topic{
+    color: aliceblue;
+    text-align: center;
+    font-family:Comic Sans MS ;
+    font-size: 30px;
+}
+button{
+    background-color: #034205; /* Green */
+    border: none;
+    color: white;
+   padding: 15px 32px;
+    text-align: right;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   margin: 4px 2px;
+   cursor: pointer;
+   }
+   fieldset{
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(232, 226, 178);
+   }
+
+   @media (max-width: 600px);
+    body {
+        padding: 10px;
+    }
+.container {
+        padding: 15px;
+    }
+.submit-btn {
+        padding: 12px;
+        font-size: 16px;
+}

@@ -1,0 +1,76 @@
+body{
+    background-color: lightgreen;
+    
+}
+header{
+    background-color: forestgreen ;
+     width:100%
+    
+    
+}
+#topic{
+    color: aliceblue;
+    text-align: center;
+    font-family:Comic Sans MS ;
+    font-size: 30px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+h1 {
+    text-align: center;
+}
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+fieldset {
+    border: 2px solid #0e0303; 
+    border-radius: 10px;
+    padding: 20px;
+    color: #fff;
+}
+
+input[type="text"], input[type="email"], input[type="tel"], input[type="number"], select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #17720c;
+    border-radius: 4px;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.submit-btn {
+    background-color: #4CAF50;
+    color: rgb(231, 232, 219);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+.submit-btn:hover {
+    background-color: #44a148;
+}
+
+@media (max-width: 600px); 
+    body {
+        padding: 10px;
+    }
+.container {
+        padding: 15px;
+    }
+.submit-btn {
+        padding: 12px;
+        font-size: 16px;
+}
+
